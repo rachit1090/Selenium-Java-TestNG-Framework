@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="28" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-25T01:20:44 IST" name="AutomationExercise Suite" finished-at="2026-04-25T01:21:41 IST" duration-ms="56999">
+    <groups>
+    </groups>
+    <test started-at="2026-04-25T01:20:44 IST" name="Edge Test" finished-at="2026-04-25T01:21:40 IST" duration-ms="56233">
+      <class name="tests.SmokeTest">
+        <test-method is-config="true" signature="report()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:20:44 IST" name="report" finished-at="2026-04-25T01:20:44 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:20:44 IST" name="setup" finished-at="2026-04-25T01:21:07 IST" duration-ms="22658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:07 IST" name="setUp" finished-at="2026-04-25T01:21:07 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageLoaded()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:07 IST" name="verifyHomePageLoaded" finished-at="2026-04-25T01:21:07 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLoaded -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:07 IST" name="setUp" finished-at="2026-04-25T01:21:08 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNavigationMenuItems()[pri:1, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:08 IST" name="verifyNavigationMenuItems" finished-at="2026-04-25T01:21:08 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationMenuItems -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:08 IST" name="setUp" finished-at="2026-04-25T01:21:08 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFeaturedProductsDisplayed()[pri:2, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:08 IST" name="verifyFeaturedProductsDisplayed" finished-at="2026-04-25T01:21:09 IST" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturedProductsDisplayed -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:09 IST" name="setUp" finished-at="2026-04-25T01:21:09 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySubscriptionSectionVisible()[pri:3, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:09 IST" name="verifySubscriptionSectionVisible" finished-at="2026-04-25T01:21:09 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubscriptionSectionVisible -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:10 IST" name="setUp" finished-at="2026-04-25T01:21:10 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNavigationToSignupLogin(java.util.Map)[pri:4, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:10 IST" name="verifyNavigationToSignupLogin" data-provider="testData" finished-at="2026-04-25T01:21:13 IST" duration-ms="3605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lastName=Vashisht, country=India, cardCvc=123, cardName=Rachit Vashisht, city=Delhi, mobile=1234567890, cardYear=2050, dobDay=18, title=Mr., productName=Blue Top, zipcode=110085, firstName=Rachit, password=Test@1234, cardMonth=12, addressLine1=abc, company=, addressLine2=, state=Delhi, dobMonth=10, dobYear=1990, email=rachit_edge_1777060244703@gmail.com, cardNumber=1234567890, username=Rachit Vashisht}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToSignupLogin -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:13 IST" name="setUp" finished-at="2026-04-25T01:21:13 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNewUserRegistration(java.util.Map)[pri:5, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:13 IST" name="verifyNewUserRegistration" data-provider="testData" finished-at="2026-04-25T01:21:20 IST" duration-ms="6619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lastName=Vashisht, country=India, cardCvc=123, cardName=Rachit Vashisht, city=Delhi, mobile=1234567890, cardYear=2050, dobDay=18, title=Mr., productName=Blue Top, zipcode=110085, firstName=Rachit, password=Test@1234, cardMonth=12, addressLine1=abc, company=, addressLine2=, state=Delhi, dobMonth=10, dobYear=1990, email=rachit_edge_1777060244703@gmail.com, cardNumber=1234567890, username=Rachit Vashisht}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewUserRegistration -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:20 IST" name="setUp" finished-at="2026-04-25T01:21:20 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddToCartFromHomePage(java.util.Map)[pri:7, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:20 IST" name="verifyAddToCartFromHomePage" data-provider="testData" finished-at="2026-04-25T01:21:24 IST" duration-ms="4249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lastName=Vashisht, country=India, cardCvc=123, cardName=Rachit Vashisht, city=Delhi, mobile=1234567890, cardYear=2050, dobDay=18, title=Mr., productName=Blue Top, zipcode=110085, firstName=Rachit, password=Test@1234, cardMonth=12, addressLine1=abc, company=, addressLine2=, state=Delhi, dobMonth=10, dobYear=1990, email=rachit_edge_1777060244703@gmail.com, cardNumber=1234567890, username=Rachit Vashisht}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartFromHomePage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:24 IST" name="setUp" finished-at="2026-04-25T01:21:24 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoggedInUsernameVisible()[pri:7, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:24 IST" name="verifyLoggedInUsernameVisible" finished-at="2026-04-25T01:21:24 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUsernameVisible -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:24 IST" name="setUp" finished-at="2026-04-25T01:21:24 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductsInCart(java.util.Map)[pri:8, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:24 IST" name="verifyProductsInCart" data-provider="testData" finished-at="2026-04-25T01:21:25 IST" duration-ms="98" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lastName=Vashisht, country=India, cardCvc=123, cardName=Rachit Vashisht, city=Delhi, mobile=1234567890, cardYear=2050, dobDay=18, title=Mr., productName=Blue Top, zipcode=110085, firstName=Rachit, password=Test@1234, cardMonth=12, addressLine1=abc, company=, addressLine2=, state=Delhi, dobMonth=10, dobYear=1990, email=rachit_edge_1777060244703@gmail.com, cardNumber=1234567890, username=Rachit Vashisht}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsInCart -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:25 IST" name="setUp" finished-at="2026-04-25T01:21:25 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProceedToCheckout()[pri:9, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:25 IST" name="verifyProceedToCheckout" finished-at="2026-04-25T01:21:26 IST" duration-ms="1562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProceedToCheckout -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:26 IST" name="setUp" finished-at="2026-04-25T01:21:26 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPaymentPage()[pri:10, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:26 IST" name="verifyPaymentPage" finished-at="2026-04-25T01:21:27 IST" duration-ms="1199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:27 IST" name="setUp" finished-at="2026-04-25T01:21:27 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOrderIsPlaced(java.util.Map)[pri:11, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:27 IST" name="verifyOrderIsPlaced" data-provider="testData" finished-at="2026-04-25T01:21:33 IST" duration-ms="5884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lastName=Vashisht, country=India, cardCvc=123, cardName=Rachit Vashisht, city=Delhi, mobile=1234567890, cardYear=2050, dobDay=18, title=Mr., productName=Blue Top, zipcode=110085, firstName=Rachit, password=Test@1234, cardMonth=12, addressLine1=abc, company=, addressLine2=, state=Delhi, dobMonth=10, dobYear=1990, email=rachit_edge_1777060244703@gmail.com, cardNumber=1234567890, username=Rachit Vashisht}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderIsPlaced -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:33 IST" name="setUp" finished-at="2026-04-25T01:21:33 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogOut()[pri:12, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:33 IST" name="verifyLogOut" finished-at="2026-04-25T01:21:35 IST" duration-ms="1450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogOut -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:35 IST" name="setUp" finished-at="2026-04-25T01:21:35 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDeleteAccount(java.util.Map)[pri:13, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:35 IST" name="verifyDeleteAccount" data-provider="testData" finished-at="2026-04-25T01:21:40 IST" duration-ms="4907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lastName=Vashisht, country=India, cardCvc=123, cardName=Rachit Vashisht, city=Delhi, mobile=1234567890, cardYear=2050, dobDay=18, title=Mr., productName=Blue Top, zipcode=110085, firstName=Rachit, password=Test@1234, cardMonth=12, addressLine1=abc, company=, addressLine2=, state=Delhi, dobMonth=10, dobYear=1990, email=rachit_edge_1777060244703@gmail.com, cardNumber=1234567890, username=Rachit Vashisht}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteAccount -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.SmokeTest@44be0077]" started-at="2026-04-25T01:21:40 IST" name="quit" finished-at="2026-04-25T01:21:40 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.SmokeTest -->
+    </test> <!-- Edge Test -->
+    <test started-at="2026-04-25T01:20:44 IST" name="Chrome Test" finished-at="2026-04-25T01:21:41 IST" duration-ms="56983">
+      <class name="tests.SmokeTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:20:44 IST" name="setup" finished-at="2026-04-25T01:21:07 IST" duration-ms="22715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:07 IST" name="setUp" finished-at="2026-04-25T01:21:07 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageLoaded()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:07 IST" name="verifyHomePageLoaded" finished-at="2026-04-25T01:21:08 IST" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLoaded -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:08 IST" name="setUp" finished-at="2026-04-25T01:21:08 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNavigationMenuItems()[pri:1, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:08 IST" name="verifyNavigationMenuItems" finished-at="2026-04-25T01:21:08 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationMenuItems -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:08 IST" name="setUp" finished-at="2026-04-25T01:21:08 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFeaturedProductsDisplayed()[pri:2, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:08 IST" name="verifyFeaturedProductsDisplayed" finished-at="2026-04-25T01:21:09 IST" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturedProductsDisplayed -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:09 IST" name="setUp" finished-at="2026-04-25T01:21:09 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySubscriptionSectionVisible()[pri:3, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:09 IST" name="verifySubscriptionSectionVisible" finished-at="2026-04-25T01:21:09 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubscriptionSectionVisible -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:10 IST" name="setUp" finished-at="2026-04-25T01:21:10 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNavigationToSignupLogin(java.util.Map)[pri:4, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:10 IST" name="verifyNavigationToSignupLogin" data-provider="testData" finished-at="2026-04-25T01:21:14 IST" duration-ms="4073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lastName=Vashisht, country=India, cardCvc=123, cardName=Rachit Vashisht, city=Delhi, mobile=1234567890, cardYear=2050, dobDay=18, title=Mr., productName=Blue Top, zipcode=110085, firstName=Rachit, password=Test@1234, cardMonth=12, addressLine1=abc, company=, addressLine2=, state=Delhi, dobMonth=10, dobYear=1990, email=rachit_chrome_1777060244703@gmail.com, cardNumber=1234567890, username=Rachit Vashisht}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToSignupLogin -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:14 IST" name="setUp" finished-at="2026-04-25T01:21:14 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNewUserRegistration(java.util.Map)[pri:5, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:14 IST" name="verifyNewUserRegistration" data-provider="testData" finished-at="2026-04-25T01:21:21 IST" duration-ms="7063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lastName=Vashisht, country=India, cardCvc=123, cardName=Rachit Vashisht, city=Delhi, mobile=1234567890, cardYear=2050, dobDay=18, title=Mr., productName=Blue Top, zipcode=110085, firstName=Rachit, password=Test@1234, cardMonth=12, addressLine1=abc, company=, addressLine2=, state=Delhi, dobMonth=10, dobYear=1990, email=rachit_chrome_1777060244703@gmail.com, cardNumber=1234567890, username=Rachit Vashisht}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewUserRegistration -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:21 IST" name="setUp" finished-at="2026-04-25T01:21:21 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddToCartFromHomePage(java.util.Map)[pri:7, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:21 IST" name="verifyAddToCartFromHomePage" data-provider="testData" finished-at="2026-04-25T01:21:25 IST" duration-ms="3751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lastName=Vashisht, country=India, cardCvc=123, cardName=Rachit Vashisht, city=Delhi, mobile=1234567890, cardYear=2050, dobDay=18, title=Mr., productName=Blue Top, zipcode=110085, firstName=Rachit, password=Test@1234, cardMonth=12, addressLine1=abc, company=, addressLine2=, state=Delhi, dobMonth=10, dobYear=1990, email=rachit_chrome_1777060244703@gmail.com, cardNumber=1234567890, username=Rachit Vashisht}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartFromHomePage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:25 IST" name="setUp" finished-at="2026-04-25T01:21:25 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoggedInUsernameVisible()[pri:7, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:25 IST" name="verifyLoggedInUsernameVisible" finished-at="2026-04-25T01:21:25 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUsernameVisible -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:25 IST" name="setUp" finished-at="2026-04-25T01:21:25 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductsInCart(java.util.Map)[pri:8, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:25 IST" name="verifyProductsInCart" data-provider="testData" finished-at="2026-04-25T01:21:25 IST" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lastName=Vashisht, country=India, cardCvc=123, cardName=Rachit Vashisht, city=Delhi, mobile=1234567890, cardYear=2050, dobDay=18, title=Mr., productName=Blue Top, zipcode=110085, firstName=Rachit, password=Test@1234, cardMonth=12, addressLine1=abc, company=, addressLine2=, state=Delhi, dobMonth=10, dobYear=1990, email=rachit_chrome_1777060244703@gmail.com, cardNumber=1234567890, username=Rachit Vashisht}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsInCart -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:25 IST" name="setUp" finished-at="2026-04-25T01:21:25 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProceedToCheckout()[pri:9, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:25 IST" name="verifyProceedToCheckout" finished-at="2026-04-25T01:21:26 IST" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProceedToCheckout -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:26 IST" name="setUp" finished-at="2026-04-25T01:21:27 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPaymentPage()[pri:10, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:27 IST" name="verifyPaymentPage" finished-at="2026-04-25T01:21:28 IST" duration-ms="1467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:28 IST" name="setUp" finished-at="2026-04-25T01:21:28 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOrderIsPlaced(java.util.Map)[pri:11, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:28 IST" name="verifyOrderIsPlaced" data-provider="testData" finished-at="2026-04-25T01:21:34 IST" duration-ms="5787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lastName=Vashisht, country=India, cardCvc=123, cardName=Rachit Vashisht, city=Delhi, mobile=1234567890, cardYear=2050, dobDay=18, title=Mr., productName=Blue Top, zipcode=110085, firstName=Rachit, password=Test@1234, cardMonth=12, addressLine1=abc, company=, addressLine2=, state=Delhi, dobMonth=10, dobYear=1990, email=rachit_chrome_1777060244703@gmail.com, cardNumber=1234567890, username=Rachit Vashisht}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderIsPlaced -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:34 IST" name="setUp" finished-at="2026-04-25T01:21:34 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogOut()[pri:12, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:34 IST" name="verifyLogOut" finished-at="2026-04-25T01:21:35 IST" duration-ms="1598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogOut -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:35 IST" name="setUp" finished-at="2026-04-25T01:21:35 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDeleteAccount(java.util.Map)[pri:13, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:35 IST" name="verifyDeleteAccount" data-provider="testData" finished-at="2026-04-25T01:21:40 IST" duration-ms="4998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lastName=Vashisht, country=India, cardCvc=123, cardName=Rachit Vashisht, city=Delhi, mobile=1234567890, cardYear=2050, dobDay=18, title=Mr., productName=Blue Top, zipcode=110085, firstName=Rachit, password=Test@1234, cardMonth=12, addressLine1=abc, company=, addressLine2=, state=Delhi, dobMonth=10, dobYear=1990, email=rachit_chrome_1777060244703@gmail.com, cardNumber=1234567890, username=Rachit Vashisht}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteAccount -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.SmokeTest@2e570ded]" started-at="2026-04-25T01:21:40 IST" name="quit" finished-at="2026-04-25T01:21:41 IST" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.SmokeTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- AutomationExercise Suite -->
+</testng-results>

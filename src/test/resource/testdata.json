@@ -1,0 +1,32 @@
+{
+	"testData": {
+		"email": "rachit@test.com",
+		"username": "Rachit Vashisht",
+		"title": "Mr.",
+		"password": "Test@1234",
+		"dobDay": "18",
+		"dobMonth": "10",
+		"dobYear": "1990",
+		"firstName": "Rachit",
+		"lastName": "Vashisht",
+		"company": "",
+		"addressLine1": "abc",
+		"addressLine2": "",
+		"country": "India",
+		"state": "Delhi",
+		"city": "Delhi",
+		"zipcode": "110085",
+		"mobile": "1234567890",
+		"productName": "Blue Top",
+		"cardName": "Rachit Vashisht",
+		"cardNumber": "1234567890",
+		"cardCvc": "123",
+		"cardMonth": "12",
+		"cardYear": "2050"
+		
+		
+		
+		
+	}
+
+}
