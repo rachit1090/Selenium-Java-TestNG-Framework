@@ -117,12 +117,7 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
             
-            <configuration>
-                <suiteXmlFiles>
-                    <suiteXmlFile>testng.xml</suiteXmlFile>
-                    <suiteXmlFile>latesttest.xml</suiteXmlFile>
-                </suiteXmlFiles>
-            </configuration>
+            
             
             
         </plugin>
@@ -139,7 +134,7 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <configuration>
                         <suiteXmlFiles>
-                            <suiteXmlFile>testng.xml</suiteXmlFile>
+                            <suiteXmlFile>ci-testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
@@ -154,11 +149,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <configuration>
-                        <suiteXmlFiles>
-                            <suiteXmlFile>latesttest.xml</suiteXmlFile>
-                        </suiteXmlFiles>
-                    </configuration>
+                   
                 </plugin>
             </plugins>
         </build>
