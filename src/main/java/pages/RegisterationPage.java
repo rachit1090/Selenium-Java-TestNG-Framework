@@ -20,7 +20,7 @@ public class RegisterationPage extends BasePage
 	By selectFemaleLocator = By.xpath("//label[@for='id_gender2']"); //Mrs. Radio Button
 	By passwordLocator = By.id("password"); //Password Radio Button
 	//By dateOfBirthDayLocator= By.xpath("//select[@id='days']");
-	WebElement dateOfBirthDayLocator = driver.findElement(By.id("days")); 
+	By dateOfBirthDayLocator = By.id("days");
 	By dateOfBirthMonthLocator  = By.id("months");
 	By dateOfBirthYearLocator   = By.id("years");
 	By firstNameLocator         = By.id("first_name");
@@ -70,7 +70,7 @@ public class RegisterationPage extends BasePage
 		
 		selectTitle(title);
 		sendKeys(passwordLocator, password);
-		Select selectDay = new Select(dateOfBirthDayLocator);
+		Select selectDay = new Select(driver.findElement(dateOfBirthDayLocator));
 		selectDay.selectByValue(dobDay);
 		 Select selectMonth = new Select(driver.findElement(dateOfBirthMonthLocator));
 		    selectMonth.selectByValue(dobMonth);
