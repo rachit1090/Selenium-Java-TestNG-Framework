@@ -1,0 +1,54 @@
+# .github/workflows/automation.yml
+
+name: Selenium TestNG Automation
+
+# TRIGGERS
+on:
+  push:
+    branches: [ main ]        # auto on every push
+  pull_request:
+    branches: [ main ]        # auto on every PR
+  workflow_dispatch:          # manual trigger button
+    inputs:
+      suite:
+        description: 'Test suite to run'
+        required: true
+        default: 'smoke'
+        type: choice
+        options:
+          - smoke
+          - regression
+
+# JOBS
+jobs:
+  test:
+    runs-on: ubuntu-latest    # GitHub's free VM
+
+    steps:
+      # Step 1 — Get your code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2 — Setup Java
+      - name: Setup Java 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      # Step 3 — Setup Chrome
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@latest
+
+      # Step 4 — Run tests
+      - name: Run Smoke Tests
+        run: mvn test -DsuiteXmlFile=testng.xml
+        # Change to latesttest.xml for regression
+
+      # Step 5 — Upload report as artifact
+      - name: Upload Test Report
+        uses: actions/upload-artifact@v3
+        if: always()           # upload even if tests fail
+        with:
+          name: AutomationReport
+          path: reports/AutomationReport.html
