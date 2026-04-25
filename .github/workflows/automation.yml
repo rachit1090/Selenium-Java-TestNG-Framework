@@ -42,7 +42,7 @@ jobs:
 
       # Step 4 — Run tests
       - name: Run Smoke Tests
-        run: mvn test -DsuiteXmlFile=testng.xml
+        run: mvn test -DsuiteXmlFile=ci-testng.xml
         # Change to latesttest.xml for regression
 
       # Step 5 — Upload report as artifact
