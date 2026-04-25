@@ -25,7 +25,7 @@ public class JsonReader
 		ObjectMapper mapper = new ObjectMapper();
 		try {
 			String path = System.getProperty("user.dir")
-			        + "\\src\\test\\resource\\testdata.json";
+			        + "/src/test/resource/testdata.json";
 			
 			jsonData = mapper.readValue(new File(path), Map.class);
 			
