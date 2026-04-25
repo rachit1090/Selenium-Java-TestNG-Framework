@@ -30,7 +30,7 @@ public class LandingPage extends BasePage
 	
 	public void addProduct(String product)
 	{
-		waitWebElement(addToCartLocator);
+		waitWebElement(productCardLocator);
 		//hoverOverText(productCardLocator,product);
 		goToProduct(productNameLocator, addToCartLocator, product);
 		
