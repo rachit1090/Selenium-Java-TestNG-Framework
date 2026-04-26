@@ -71,7 +71,7 @@ public class BasePage
 	public void goToProduct(By prodNameEle, By addToCartEle, String productName)
 	{
 		List<WebElement> productsName = driver.findElements(prodNameEle);
-		List<WebElement> addToCart = driver.findElements(addToCartEle);
+		
 		Actions action = new Actions(driver);
 		
 		
@@ -92,10 +92,10 @@ public class BasePage
 				
 				action.moveToElement(productsName.get(i))
 				.pause(500)
-				.moveToElement(addToCart.get(i))
-				.pause(200)
-				.click()
 				.perform();
+				
+				List<WebElement> addToCart = driver.findElements(addToCartEle);
+				
 				// fallback to JS click for Firefox
                 ((JavascriptExecutor) driver)
                     .executeScript(
