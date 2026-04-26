@@ -40,6 +40,13 @@ public class BasePage
 		wait.until(ExpectedConditions.visibilityOfElementLocated(ele));
 	}
 	
+	public void sleep(int x)
+	{
+		try { Thread.sleep(x); }
+	    catch(InterruptedException e) { Thread.currentThread().interrupt(); }
+
+	}
+	
 	public Boolean isDisplayed(By ele)
 	{
 		return driver.findElement(ele).isDisplayed();
@@ -78,6 +85,11 @@ public class BasePage
 	        String product = productsName.get(i).getText();
 	        if(product.equals(productName))
 	        {
+	        	((JavascriptExecutor) driver)
+                .executeScript("arguments[0].scrollIntoView(true);", productsName.get(i));
+	        	
+	        	sleep(500);
+	        	
 	        	WebElement productCard = driver.findElements(
 	        		    By.xpath("//div[@class='productinfo text-center']/a[@class='btn btn-default add-to-cart']")
 	        		).get(i);
@@ -85,19 +97,7 @@ public class BasePage
 	        		((JavascriptExecutor) driver)
 	        		    .executeScript("arguments[0].click();", productCard);
 	        	
-	            ((JavascriptExecutor) driver)
-	                .executeScript("arguments[0].scrollIntoView(true);", productsName.get(i));
-
-	            try { Thread.sleep(500); } catch(InterruptedException e) {}
-
-	            action.moveToElement(productsName.get(i))
-	                  .pause(500)
-	                  .perform();
-
-	            List<WebElement> addToCart = driver.findElements(addToCartEle);
-
-	            ((JavascriptExecutor) driver)
-	                .executeScript("arguments[0].click();", addToCart.get(i));
+	          
 	            break;
 	        }
 	    }
