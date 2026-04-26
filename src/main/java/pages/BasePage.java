@@ -71,41 +71,28 @@ public class BasePage
 	public void goToProduct(By prodNameEle, By addToCartEle, String productName)
 	{
 		List<WebElement> productsName = driver.findElements(prodNameEle);
-		
-		Actions action = new Actions(driver);
-		
-		
-		for(int i=0; i<productsName.size(); i++)
-		{
-			String product = productsName.get(i).getText();
-			if(product.equals(productName))
-			{
-				// step 1 — scroll element into viewport first
-	            ((JavascriptExecutor) driver)
-	                .executeScript(
-	                    "arguments[0].scrollIntoView(true);",
-	                    productsName.get(i));
+	    Actions action = new Actions(driver);
 
-	            // step 2 — small pause after scroll
-	            try { Thread.sleep(500); }
-	            catch(InterruptedException e) { }
-				
-				action.moveToElement(productsName.get(i))
-				.pause(500)
-				.perform();
-				
-				List<WebElement> addToCart = driver.findElements(addToCartEle);
-				
-				// fallback to JS click for Firefox
-                ((JavascriptExecutor) driver)
-                    .executeScript(
-                        "arguments[0].click();",
-                        addToCart.get(i));
-				
-				break;
-				
-			}
-		}
-		
+	    for(int i = 0; i < productsName.size(); i++)
+	    {
+	        String product = productsName.get(i).getText();
+	        if(product.equals(productName))
+	        {
+	            ((JavascriptExecutor) driver)
+	                .executeScript("arguments[0].scrollIntoView(true);", productsName.get(i));
+
+	            try { Thread.sleep(500); } catch(InterruptedException e) {}
+
+	            action.moveToElement(productsName.get(i))
+	                  .pause(500)
+	                  .perform();
+
+	            List<WebElement> addToCart = driver.findElements(addToCartEle);
+
+	            ((JavascriptExecutor) driver)
+	                .executeScript("arguments[0].click();", addToCart.get(i));
+	            break;
+	        }
+	    }
 	}
 }
