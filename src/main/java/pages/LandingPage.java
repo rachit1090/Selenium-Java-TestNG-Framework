@@ -17,7 +17,7 @@ public class LandingPage extends BasePage
 	By productNameLocator = By.xpath("//div[@class='productinfo text-center']/p");
 	By productPriceLocator = By.xpath("//div[@class='productinfo text-center']/h2");
 	By productImageLocator = By.xpath("//div[@class='productinfo text-center']/img");
-	By addToCartLocator = By.xpath("//a[@class='btn btn-default add-to-cart']");
+	By addToCartLocator = By.xpath("//div[@class='product-overlay']//a[@class='btn btn-default add-to-cart']");
 	By popupLocator = By.xpath("//div[@class='modal-content']");
 	By addedTextLocator = By.xpath("//h4[@class='modal-title w-100']");
 	By continueShoppingLocator = By.xpath("//button[@class='btn btn-success close-modal btn-block']");
