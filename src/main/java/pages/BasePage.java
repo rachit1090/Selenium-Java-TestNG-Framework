@@ -78,6 +78,13 @@ public class BasePage
 	        String product = productsName.get(i).getText();
 	        if(product.equals(productName))
 	        {
+	        	WebElement productCard = driver.findElements(
+	        		    By.xpath("//div[@class='productinfo text-center']/a[@class='btn btn-default add-to-cart']")
+	        		).get(i);
+
+	        		((JavascriptExecutor) driver)
+	        		    .executeScript("arguments[0].click();", productCard);
+	        	
 	            ((JavascriptExecutor) driver)
 	                .executeScript("arguments[0].scrollIntoView(true);", productsName.get(i));
 
