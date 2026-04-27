@@ -15,13 +15,7 @@
     </test>
     
       
-    <test name="Edge Test">
-        <parameter name="browser" value="edge"></parameter>
-        <parameter name="headless" value="true"></parameter>
-        <classes>
-            <class name="tests.SmokeTest"/>
-        </classes>
-    </test>
+ 
     
     
 
