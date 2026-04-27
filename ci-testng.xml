@@ -13,5 +13,19 @@
             <class name="tests.SmokeTest"/>
         </classes>
     </test>
+    
+    <listeners>
+        <listener class-name="utility.Listeners"></listener>
+    </listeners>
+    
+    <test name="Edge Test">
+        <parameter name="browser" value="edge"></parameter>
+        <parameter name="headless" value="true"></parameter>
+        <classes>
+            <class name="tests.SmokeTest"/>
+        </classes>
+    </test>
+    
+    
 
 </suite>
