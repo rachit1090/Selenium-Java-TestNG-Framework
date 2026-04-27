@@ -93,6 +93,10 @@ public class BasePage
 	        	WebElement productCard = driver.findElements(
 	        		    By.xpath("//div[@class='productinfo text-center']/a[@class='btn btn-default add-to-cart']")
 	        		).get(i);
+	        	
+	        	((JavascriptExecutor) driver).executeScript(
+	        		    "document.querySelectorAll('iframe').forEach(el => el.remove());"
+	        		);
 
 	        		((JavascriptExecutor) driver)
 	        		    .executeScript("arguments[0].click();", productCard);
